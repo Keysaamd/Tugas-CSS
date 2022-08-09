@@ -1,0 +1,64 @@
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.login {
+    width: 300px !important;
+    height: fit-content;
+    margin-left: 10px;
+}
+
+.box {
+    width: fit-content;
+    border: solid 1px lightgray;
+    box-shadow: 5px 5px 10px rgb(165, 165, 169);
+    padding: 20px;
+    padding-top: 5px;
+    background-color: lightgray;
+}
+
+.box .header {
+    color: rgb(0, 0, 0);
+}
+
+.form-input {
+    display: grid;
+    margin-top: 10px;
+}
+
+.form-input label {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.form-input input {
+    height: 25px;
+    border: solid 1px white;
+}
+
+.button-input{
+    display: grid;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.button-input button{
+    background-color: rgb(205, 68, 50);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+label[for="agreements"]{
+    margin-left: 5px;
+}
+
+.agreements{
+    color: black;
+    margin-top: 20px;
+}
